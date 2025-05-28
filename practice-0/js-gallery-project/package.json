@@ -1,0 +1,21 @@
+{
+  "name": "js-gallery-project",
+  "version": "1.0.0",
+  "description": "A simple image gallery project that displays images in a modal view.",
+  "main": "src/scripts/gallery.js",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build step not defined'"
+  },
+  "keywords": [
+    "gallery",
+    "modal",
+    "images",
+    "javascript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
