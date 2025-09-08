@@ -1,0 +1,17 @@
+.lazy-image {
+  height: 200px;
+  background-color: #f0f0f0;
+  transition: opacity 0.5s;
+  opacity: 0;
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+.lazy-image.placeholder {
+  background: repeating-linear-gradient(90deg, #f0f0f0 0 40px, #e0e0e0 40px 80px);
+  opacity: 1;
+}
+.lazy-image.loaded {
+  opacity: 1;
+  background: none;
+}
